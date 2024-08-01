@@ -12,6 +12,8 @@ function printCurrentTimeEverySecond()
       console.log('Stopped printing time after 30 seconds.');
     }, 30000);
 }
-  
-printCurrentTimeEverySecond();
-  
+
+export function task3()
+{
+    printCurrentTimeEverySecond();
+}
